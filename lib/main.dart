@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:learn_riverpod/consumer_demo.dart';
-import 'package:learn_riverpod/home.dart';
+// import 'package:learn_riverpod/consumer_demo.dart';
+// import 'package:learn_riverpod/home.dart';
 import 'package:learn_riverpod/set_state_demo.dart';
 
 final nameProvider = Provider<String>((ref) {
@@ -24,7 +24,7 @@ class MyApp extends ConsumerWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: SetStateDemo(),
+      home: const SetStateDemo(),
     );
   }
 }
